@@ -70,7 +70,7 @@ function check(ans, question) {
 
         i++;
     }
-    // console.log(randomArray.length);
+
     if (i == randomArray.length) {
         boxAppear(true);
 
@@ -79,7 +79,7 @@ function check(ans, question) {
 
 }
 
-// let check=check();
+
 // ===========Box Creation==================
 let ParentNod = document.getElementById('body');
 
